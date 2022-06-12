@@ -39,4 +39,8 @@ lua
 
 [Repo](https://github.com/microsoft/vscode-node-debug2)
 
-> `git clone https://github.com/microsoft/vscode-node-debug2 $NVCHAD_HOME/lua/custom/vscode-node-debug2` > `cd $NVCHAD_HOME/lua/custom/vscode-node-debug2` > `npm i && npm run build`
+> `git clone https://github.com/microsoft/vscode-node-debug2 $NVCHAD_HOME/lua/custom/vscode-node-debug2`
+ 
+> `cd $NVCHAD_HOME/lua/custom/vscode-node-debug2` 
+
+>  `npm i && npm run build`
