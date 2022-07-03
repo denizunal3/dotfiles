@@ -22,5 +22,6 @@ return {
     config = function()
        require("custom.plugins.dap").setup()
     end,
-  }
+  },
+ ["tpope/vim-fugitive"] = {},
 }

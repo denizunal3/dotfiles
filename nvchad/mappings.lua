@@ -6,6 +6,12 @@ M.dap = {
   n = {
     ["<F5>"] = {
             function()
+              require('dap').continue()
+            end,
+            "dap .continue()"
+    },
+    ["<F10>"] = {
+            function()
               require('dap').step_over()
             end,
             "dap .step_over()"
@@ -52,6 +58,19 @@ M.lspconfig = {
          end,
          "   lsp rename",
       },
+   },
+}
+
+M.telescope = {
+    n = {
+      -- find
+      ["<C-p>"] = { "<cmd> Telescope find_files <CR>", "  find files" },
+      ["<C-F>"] = { "<cmd> Telescope grep_string <CR>", "   live grep" },
+   }, 
+   i = {
+      -- find
+      ["<C-p>"] = { "<cmd> Telescope find_files <CR>", "  find files" },
+      ["<C-F>"] = { "<cmd> Telescope grep_string <CR>", "   live grep" },
    },
 }
 
